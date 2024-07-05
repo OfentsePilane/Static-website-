@@ -1,0 +1,131 @@
+.navbar-nav a{
+    margin-left: 30px;
+    font-size: 2em;
+    color: black;
+   /* justify-content: end;*/
+}
+
+.navbar-nav a:hover{
+    transform: scale(1.4);
+
+}
+
+body{
+    background-color: #fae0be;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.login-container {
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.login-form {
+max-width: 500px;
+width: 100%;
+padding: 10px;
+
+}
+
+h2 {
+text-align: center;
+font-size: 4em;
+}
+
+label {
+font-size: 1.6em;
+display: block;
+margin-bottom: 4px;
+}
+
+input {
+width: 100%;
+padding: 10px;
+margin-bottom: 16px;
+box-sizing: border-box;
+}
+
+button {
+width: 100%;
+padding: 10px;
+background-color: black;
+border: none;
+border-radius: 20px;
+cursor: pointer
+}
+
+button a{
+color: white;
+}
+
+.navigation{
+   position: relative;
+   justify-items: center;
+   display: flex;
+
+}
+
+.navigation a{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   margin-left: 30px;
+    color: black;
+    font-size: 2em;
+    transition: 0.3s ease;
+    padding: 15px 100px;
+    
+}
+
+.navigation a ::before{
+    content: '';
+    position: absolute;
+    background: black;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 3s ease;
+}
+
+header .navigation a:hover::before{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+.login-form {
+ max-width: none;
+}
+}
+
+.bottom{
+background-color: #8a5208;
+text-align: center;
+
+}
+
+h5{
+color: white;
+}
+
+P{
+    font-size: 1.3em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h1{
+    color: #8a5208;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

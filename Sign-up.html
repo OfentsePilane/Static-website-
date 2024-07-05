@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    
+
+    
+ .Sign-up-container {
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ }
+ 
+
+ label {
+font-size: 1.4em;
+display: block;
+margin-bottom: 4px;
+}
+ 
+ 
+ 
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="Home.html">
+          <img src="Logo1.png" alt="Logo" height="200">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="navigation">
+            <a href="Home.html"> Home </a>
+            <a href="About.html"> About</a>
+            <a href="Shop.html"> Shop</a>
+            <a href="Guide.html"> Guide</a>
+    
+            </div>
+    
+
+       <div class=" collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                        <a href="Login.html"><i class="fa fa-user"></i></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a href="Register.html"><i class="fa fa-file"></i></a> 
+                </li>
+
+                <li class="nav-item">
+                   <a href="Home.html"><i class="fa fa-home"></i></a>
+                </li>
+
+            </ul>
+
+        </div> 
+
+    </nav>
+
+    <main>
+    
+        <div class="Sign-up-container">
+            <form class="login-form" method="post">
+              <h2>Sign-up</h2>
+              <label for= "name"> Name* :</label>
+              <input typo="text" id=" name" placeholder= "Enter your full name" required> 
+              <label for="email "> Email*</label>
+              <input type=" email" id = "email" Placeholder=" Enter your email " required> 
+              <label for="Number "> Cell Number*</label>
+              <input type=" Number" id = "number" Placeholder=" Enter your cell number  " required> <br>
+              <label for="date "> Date of birth*</label>
+              <input type=" date" id = "date" Placeholder=" Enter your date of birth " required> <br>
+
+              <h5>Gender</h5>
+              <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female">
+              <label for="female">Female</label>
+
+              <label for="dropdown "> choose your hair type</label>
+              <select id="dropdown" name ="hairType">
+                <option value="india">4c</option>
+                <option value="Kenya">3c</option>
+                <option value="USA">2c</option>
+              </select>  
+              <button type="submit">
+                <a class="nav-link" href="Login.html">Sign-up</a> 
+            </button>
+            </form>
+        </div>
+    </main>   
+
+        <footer class=" bottom" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Contact us</h5>
+                        <ul style="color:  #fae0be;">  
+                            <li><a href="Email: GlowBeauty@gmail.com"> </a>GlowBeauty@gmail</li>
+                            <li><a href="Tel:014 190 6333"></a>014 190 6333</li>
+                          
+        
+                        </ul>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <h5>Quick Links</h5>
+                        
+                        <ul style="color:  #fae0be;">  
+                            <li><a href="Home.html"></a>Home</li>
+                            <li><a href="#"></a>About</li>
+                            <li><a href="#"></a>Contact</li>
+                            <li><a href="#"></a>Testimonials</li>
+        
+                        </ul>
+        
+                    </div>
+                    
+                    <div class="col-md-3">
+                        <h5>Our Sites</h5>
+                        <ul style="color:  #fae0be;">  
+                            <li><a href="#"></a>Facebook</li>
+                            <li><a href="#"></a>Twitter</li>
+                            <li><a href="#"></a>Instagram</li>
+        
+                        </ul>
+                      
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </footer>
+    
+    
+
+   
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
